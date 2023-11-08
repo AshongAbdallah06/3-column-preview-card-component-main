@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* color: white; */
+    align-items: center;
+    flex: 1;
+}
+
+.card {
+    padding: 40px 30px;
+    height: 65vh;
+    width: 220px;
+}
+
+.name {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    /* font-size: 15px; */
+    font-weight: 700;
+}
+
+.sedans-card {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-card {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.message {
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Big Shoulders Display', sans-serif; */
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    height: 170px;
+    width: 200px;
+    color: hsla(0, 0%, 100%, 0.75);
+    /* background-color: lightblue; */
+}
+
+.learn-more {
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.sedans-card .learn-more {
+    /* background-color: black; */
+    color: hsl(31, 77%, 52%);
+    transition: background-color 0.1s;
+}
+
+.sedans-card .learn-more:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+}
+
+.suvs-card .learn-more {
+    color: hsl(184, 100%, 22%);
+    transition: background-color 0.1s;
+}
+
+.suvs-card .learn-more:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+}
+
+.luxury-card .learn-more {
+    color: hsl(179, 100%, 13%);
+    transition: background-color 0.1s;
+}
+
+.luxury-card .learn-more:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid white;
+} 
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
