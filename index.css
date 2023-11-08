@@ -104,3 +104,22 @@ main {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+@media (max-width: 750px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sedans-card {
+        border-radius: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .luxury-card {
+        border-radius: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
