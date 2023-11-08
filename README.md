@@ -23,8 +23,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-AyKhfotW0M) 
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/3-column-preview-card-component-AyKhfotW0M) 
+- Live Site URL: (https://your-live-site-url.com)
 
 ## My process
 
@@ -33,6 +33,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - HTML
 - CSS
 - Flexbox
+- JavaScript
 
 
 ## Author
