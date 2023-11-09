@@ -114,6 +114,7 @@ main {
     .card {
         padding-left: 40%;
         padding-right: 40%;
+        height: 40vh;
     }
 
     .sedans-card {
