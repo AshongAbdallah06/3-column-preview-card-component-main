@@ -115,7 +115,7 @@ main {
         padding-left: 15%;
         padding-right: 15%;
         height: 350px;
-        width: 250px;
+        /* width: 250px; */
     }
 
     .sedans-card {
@@ -128,5 +128,9 @@ main {
         border-radius: 0;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+    }
+
+    .learn-more {
+        margin-bottom: 10px;
     }
 }
