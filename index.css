@@ -108,7 +108,12 @@ main {
 
 @media (max-width: 750px) {
     main {
-        flex-direction: column;
+        flex-direction: column; 
+    }
+
+    .card {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .sedans-card {
