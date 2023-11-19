@@ -114,6 +114,10 @@ main {
 
 
 @media (max-width: 750px) {
+    body {
+        flex-direction: column;
+    }
+    
     main {
         flex-direction: column; 
     }
